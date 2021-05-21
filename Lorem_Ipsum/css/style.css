@@ -1,0 +1,254 @@
+
+.wrapper {
+	width: 990px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+.sidenav {
+	height: 100%;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    top: -39px;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    padding: 52px;
+    
+}
+
+.sidenav a {
+    padding: 2px 8px 1px 11px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+	line-height: 3.5em;
+	font-family: system-ui;
+}
+
+.sidenav a:hover {
+	color: #818181;
+}
+
+
+.Brand_name {
+    color: black;
+    display: block;
+    padding: 20px 22px 16px 4px;
+    left: 17px;
+}
+.Brand_name h1 {
+    color: black;
+    font-family: 'Sybarite Small';
+}
+
+a.redStrike {
+    color:red;
+    text-decoration:line-through;
+}
+
+.spelling-error {
+	text-decoration-line: underline;
+	text-decoration-color: red;
+}
+
+.button {
+    background-color: #e44f4f;
+    border: none;
+    color: white;
+    padding: 11px 36px 9px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 30px 16px;
+    cursor: pointer;
+    border-radius: 26px;
+}
+
+.container {
+    width: 560px;
+	margin : 58px;
+}
+       
+.left {
+   /* Increase line-height 
+    compare to default */
+    line-height: 2.5em;
+    float: left;
+}
+
+.left h1 {
+	color: black;
+	font-family: 'Sybarite Small';
+	font-size: 51px;
+	line-height: 1.5em;
+}
+
+.right {
+    float: right;
+	color: #818181
+}
+
+.right p {
+	position: absolute;
+	top: 3%;
+	left: 710px;
+	margin: 102px;
+	font-family: system-ui;
+}
+		
+ .gallery{
+	display: flex;
+	width: 795px;
+	height: 210px;
+	margin: 60px;
+	justify-content: space-between;
+}
+
+.polaroid{
+	width: 142px;
+	height: 200px;
+	margin: 0;
+	padding: 23px 12px 0px 12px;
+	box-shadow: 2px 4px 8px 3px Gainsboro;
+	border-radius: 25px;
+	box-sizing: border-box;
+}
+
+.polaroid img{
+	border-radius: 50%;
+	padding:14px,10px;
+	width : 121px;
+	height:106px;
+}
+
+.polaroid h4{
+    text-align: center;
+    padding: 0px;
+    font-family: system-ui;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 640px) {
+  /* For mobile phones: */
+ .wrapper {
+        float: left;
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+ }
+.sidenav {
+	float: left;
+    margin: 0px;
+    width: 0%;
+    padding: 0px 61px 0px 0px;
+    height: 100%;
+}
+
+.sidenav a {
+	float: left;
+    margin: 0px;
+    width: 100%;
+    font-size: 12px;
+}
+
+
+.Brand_name {
+	float: left;
+    margin: 39px 0px 0px 0px;
+    width: 100%;
+}
+
+.Brand_name h1 {
+    float: left;
+    margin: 0px;
+    width: 100%;
+    font-size: 13px;
+}
+
+.redStrike {
+	float: left;
+	margin:0px;
+	width: 100%;
+}
+
+.spelling-error {
+	float: left;
+	margin:0px;
+	width: 100%;
+}
+
+.button {
+	float: left;
+    margin: 8px;
+    padding: 5px 17px 5px 12px;
+    font-size: 8px;
+}
+
+.container {
+	    width: 58px;
+}
+
+.left {
+	
+}
+
+.left h1 {
+	       float: left;
+    margin: -30px -14px 7px -1px;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+
+.right {
+	float: right;
+    margin: auto;
+    width: 100%;
+}
+
+.right p {
+	float: right;
+    margin: 27px 0px 0px 111px;
+    left: 80px;
+    top: 0px;
+    padding: 8px;
+    
+    font-size: 10px;
+}
+
+.gallery {
+	
+	float: left;
+    margin: 0px 16px 13px 40px;
+    width: 286px;
+    height: 10%;
+    display: inherit;
+    padding: 6px 0px 0px 20px;
+    
+}
+
+.polaroid {
+	float: left;
+    width: 48%;
+    height: 168px;
+    padding: 31px 0px 0px 21px;
+}
+
+.polaroid img {
+	width: 100px;
+    height: 103px;
+    margin: -7px;
+    padding: 0px;	
+}
+
+.polaroid h4 {
+	float: left;
+	margin:0px;
+	width: 100%;
+	text-align: inherit;
+}
+}
